@@ -1,0 +1,2 @@
+a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1616050500;s:6:"expire";i:9999999999;s:4:"tags";s:23:"b4f_REFLECTION,b4f_MAGE";}
+{"getReviewsList":{"type":"array","isRequired":true,"description":null,"parameterCount":1},"getRatings":{"type":"array","isRequired":true,"description":null,"parameterCount":0},"writeReviews":{"type":"boolean","isRequired":true,"description":null,"parameterCount":5}}

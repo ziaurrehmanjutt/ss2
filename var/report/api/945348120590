@@ -1,0 +1,1 @@
+"Fatal Error: 'Class Iib\\Firebase\\Model\\IibFirebaseClass contains 1 abstract method and must therefore be declared abstract or implement the remaining methods (Magento\\Framework\\App\\ActionInterface::execute)' in 'C:\\xampp\\htdocs\\sodasalf\\app\\code\\Iib\\Firebase\\Model\\IibFirebaseClass.php' on line 7"

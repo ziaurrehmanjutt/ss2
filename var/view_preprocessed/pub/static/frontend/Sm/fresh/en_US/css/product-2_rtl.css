@@ -1,0 +1,213 @@
+/**
+ * Button
+ */
+/**
+ * Remove color name product
+ */
+/**
+ * Icomoon mixin
+ */
+.products-grid:not(.wishlist) .product-item-info {
+  width: 100% !important;
+  margin-bottom: 40px;
+  transition: 0.2s;
+  -moz-transition: 0.2s;
+  -webkit-transition: 0.2s;
+  -o-transition: 0.2s;
+}
+.products-grid:not(.wishlist) .product-item-info .reviews-actions {
+  display: none !important;
+}
+.products-grid:not(.wishlist) .product-item-info .image-product {
+  position: relative;
+  text-align: center;
+}
+.products-grid:not(.wishlist) .product-item-info .image-product .actions-secondary {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  top: 50%;
+  margin-top: -20px;
+  z-index: 1;
+}
+.products-grid:not(.wishlist) .product-item-info .image-product .actions-secondary .action {
+  background-color: rgba(0, 0, 0, 0.5);
+  display: inline-block;
+  margin: 0 2px;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  color: #fff;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  -o-transform: scale(0);
+  transform: scale(0);
+  transition: 0.2s;
+  -moz-transition: 0.2s;
+  -webkit-transition: 0.2s;
+  -o-transition: 0.2s;
+}
+.products-grid:not(.wishlist) .product-item-info .image-product .actions-secondary .action span {
+  display: none !important;
+}
+.products-grid:not(.wishlist) .product-item-info .image-product .actions-secondary .action:before {
+  display: none;
+}
+.products-grid:not(.wishlist) .product-item-info .image-product .actions-secondary .action.towishlist:after {
+  content: '\f004';
+  display: inline-block;
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  font-size: 14px;
+}
+.products-grid:not(.wishlist) .product-item-info .image-product .actions-secondary .action.tocompare:after {
+  content: '\f074';
+  display: inline-block;
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  font-size: 14px;
+}
+.products-grid:not(.wishlist) .product-item-info .image-product .actions-secondary .action.sm_quickview_handler {
+  display: none;
+}
+.products-grid:not(.wishlist) .product-item-info .product-item-photo {
+  display: block;
+  padding: 5px;
+  border: 1px solid #e3e3e3;
+  line-height: 0;
+}
+.products-grid:not(.wishlist) .product-item-info .product-item-details {
+  padding-top: 20px;
+  border: 1px solid #e3e3e3;
+  border-top: 0px;
+}
+.products-grid:not(.wishlist) .product-item-info .product-item-details .product-item-name {
+  margin: 0 0 4px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 107.14%;
+  text-align: center;
+  padding: 0 10px;
+}
+.products-grid:not(.wishlist) .product-item-info .product-item-details .product-item-name a {
+  padding: 6px 0;
+  font-weight: 500;
+}
+.products-grid:not(.wishlist) .product-item-info .product-item-details .swatch-attribute {
+  text-align: center;
+}
+.products-grid:not(.wishlist) .product-item-info .product-item-details .swatch-attribute .swatch-option {
+  display: inline-block;
+  float: none;
+  margin-bottom: 0px;
+}
+.products-grid:not(.wishlist) .product-item-info .product-item-details .price-box {
+  margin: 5px 0 20px;
+  text-align: center;
+}
+.products-grid:not(.wishlist) .product-item-info .product-item-details .price-box .price {
+  font-size: 121.42%;
+}
+.products-grid:not(.wishlist) .product-item-info .product-item-details div[class^="swatch-opt-"] {
+  margin-bottom: 30px;
+}
+.products-grid:not(.wishlist) .product-item-info .product-item-details .product-item-actions {
+  margin: 0;
+  border-top: 1px solid #e3e3e3;
+}
+.products-grid:not(.wishlist) .product-item-info .product-item-details .product-item-actions .actions-primary {
+  display: flex;
+  width: 100%;
+  padding: 0 15px;
+  height: 50px;
+  line-height: 50px;
+}
+.products-grid:not(.wishlist) .product-item-info .product-item-details .product-item-actions .actions-primary form {
+  margin-left: auto;
+}
+.products-grid:not(.wishlist) .product-item-info .product-item-details .product-item-actions .actions-primary .tocart {
+  background-color: transparent;
+  color: #8b8b8b;
+  margin-right: auto;
+  font-size: 92.85%;
+  text-transform: capitalize;
+  border-radius: 25px;
+  font-weight: 500;
+  padding: 0;
+}
+.products-grid:not(.wishlist) .product-item-info .product-item-details .product-item-actions .actions-primary .tocart:before {
+  content: '\f291';
+  display: inline-block;
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  font-size: 14px;
+  margin: 0 5px;
+}
+.products-grid:not(.wishlist) .product-item-info .product-item-details .product-item-actions .actions-primary .tocart:hover {
+  box-shadow: inset 0 0px 0px rgba(0, 0, 0, 0);
+}
+.products-grid:not(.wishlist) .product-item-info .product-item-details .product-item-actions .actions-primary .quickview-handler {
+  color: #8b8b8b;
+  font-size: 92.85%;
+  text-transform: capitalize;
+  font-weight: 500;
+}
+.products-grid:not(.wishlist) .product-item-info .product-item-details .product-item-actions .actions-primary .quickview-handler:before {
+  content: '\f06e';
+  display: inline-block;
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  font-size: 14px;
+  margin: 0 5px;
+  position: relative;
+  top: 1px;
+}
+.products-grid:not(.wishlist) .product-item-info .product-item-details .swatch-option.color {
+  margin: 0 10px 0 3px;
+}
+.products-grid:not(.wishlist) .product-item-info:hover {
+  box-shadow: 0 0px 10px rgba(0, 0, 0, 0.07000000000000001);
+}
+.products-grid:not(.wishlist) .product-item-info:hover .image-product .actions-secondary .action {
+  opacity: 1;
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+  transform: scale(1);
+  visibility: visible;
+}

@@ -1,0 +1,11 @@
+a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1616385253;s:6:"expire";i:1616388853;s:4:"tags";s:69:"b4f_BLOCK_HTML,b4f_CAT_C,b4f_CAT_C_3,b4f_CAT_C_4,b4f_CAT_C_7,b4f_MAGE";}
+a:2:{s:8:"policies";a:1:{i:0;a:3:{s:2:"id";s:10:"script-src";s:5:"hosts";a:0:{}s:6:"hashes";a:4:{s:44:"/PqDWJciQvcdJwCPRqIddHi8N+EhlWtTIJBQYxLgi2E=";s:6:"sha256";s:44:"48sb4Je7XoTlJimO7pm/+fwXo5BBI6oU4Vci+QqK2/I=";s:6:"sha256";s:44:"HUjaEs6gPI/8f06cL8Wy1zR3vaPjSDAYb+YL5IRBsf4=";s:6:"sha256";s:44:"9N89WMndeXJQQmez3zcXupuWhb0jRtPuHYgRtBa1Cjo=";s:6:"sha256";}}}s:4:"html";s:766:"
+
+<div class="navigation-wrapper">
+        <nav class="navigation" role="navigation">
+            <ul data-mage-init='{"menu":{"responsive":true, "expanded":true, "position":{"my":"left top","at":"left bottom"}}}'>
+                <li  class="level0 nav-1 category-item first level-top"><a href="http://sodasulf.iibtech.com/fruits.html"  class="level-top" ><span>Fruits</span></a></li><li  class="level0 nav-2 category-item level-top"><a href="http://sodasulf.iibtech.com/catalog/category/view/s/lentils/id/4/"  class="level-top" ><span>Lentils</span></a></li><li  class="level0 nav-3 category-item last level-top"><a href="http://sodasulf.iibtech.com/vegetables.html"  class="level-top" ><span>Vegetables</span></a></li>            </ul>
+        </nav>
+    </div>
+
+";}

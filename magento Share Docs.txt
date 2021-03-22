@@ -1,0 +1,109 @@
+$ composer require oxcom/magento2-top-products
+$ bin/magento module:enable OxCom_MagentoTopProducts
+$ bin/magento setup:upgrade
+$ bin/magento setup:di:compile
+
+
+php bin/magento config:set web/secure/use_in_adminhtml 1
+php bin/magento cache:clean
+
+https://marketplace.magento.com/mollie-magento2.html Molie Payment Method
+
+
+composer require mma/customapi
+php bin/magento setup:upgrade
+php bin/magento cache:clean
+
+Public Key: 1645e6dd1635b21f8f131177dad88e2c Copy
+Private Key: 3bb3dd7f72cefbfc681390149edc44e7 Copy
+
+
+http://172.28.52.25/sodasalf/admin_104432
+
+https://marketplace.magento.com/media/catalog/product/rltsquare-easypaisa-1-0-0-ce/reference_manuals.pdf
+
+https://marketplace.magento.com/sparsh-whatsapp-chat-extension.html
+
+sparsh/whatsapp-chat-extension
+
+https://www.mageplaza.com/blog/manage-user-roles-admin-permissions.html#set-admin-permissions-to-access-sales-data
+
+
+
+php bin/magento admin:user:unlock <username>
+Example:  php bin/magento admin:user:unlock admin
+User Name: Sehar
+
+
+
+
+
+cpofficial1122@gmail.com or addedcpofficial@gmail.com
+pw: <CPOfficial1122/>
+
+cpSystem7777
+<cpSystem7777/2020>
+
+<Developer123/>
+Zia@1234
+
+https://meetanshi.com/blog/create-payment-method-in-magento-2/
+
+
+https://github.com/ziaurrehmanjutt/sodasulf.git
+
+Password: Uvfz2ZCAxYaS
+user : user
+
+-----BEGIN RSA PRIVATE KEY-----
+Proc-Type: 4,ENCRYPTED
+DEK-Info: DES-EDE3-CBC,90E20D69391DD9A7
+
+ymbZZEmAGmG4LzChlasoMAJupMMNpBfTRtbtPMskgeNPWclAtc8kDpMN75bEBXm3
+TL98icj8n2faAMwP+Gm3d9j8WE9C4QaDbz1sba5xBcQ60bThL4r4jPK9RUu+jvrw
+d1FWSV3gCEmGpYDXzD9cN8YpY/ZbOVtapwhguSVj1ZnDT3SZI//q0fSx/wWNCO9V
+cQi7K7yWtJo5DO66t5VE/5socMh0aLvAAzugllv3rcWg8/ndRWG6LnB1+7Ts9t9W
+b8MRZo5kT+xnTRmcOEsYdr5UhrlpgrecxA4L45OUCRYsBmdtUd78E0Sgm7XCNopd
+A3qN3rdX4Rke4EInGOr3gAT+4hy6KiHFnWAnaztfaDJTKB8oqLMelWQks3g+NCL5
+uM6WyqFVSLFoOQ9FImI5BxsRYJGVkmWunRGx9V/skKuPWEK7bs64v777aCFM4i90
+krlZPAWfOiXl9R14wt1JfCKZwBIlCDbY+wrCe+UhoOC/1goJcoJdKy6cyaNuFVOa
+hneow77zHIb4U5LVn9V+W9Fz66VYje5wcnAHFclyfY7xA8JqXwdSM4+HVhOUezwU
+RbCSzCoQNEhvb3EJX7mkwLSdaWv+0/RVjpfeJz557YTq+L5QRkO3tA3O5alwD3Ey
+fbYNlfqrKLK7QfQzL9NLE0MgLCm5vLhCWFO5Nyf4VwMKsWIrxG7VqsUGKHC37dMl
+HuUbJgomtDF47UZ6+4thprspUxhtE5uX7yOwY1ocHrGTa/PCD7Nkb8FviCffHwua
+RaavYO9dX+4pIJGZiJ075yLoBokY6ouBCDPTg03WDNw2vsU9FwbOsg==
+-----END RSA PRIVATE KEY-----
+
+db pass: cc575657f2a0d0be9c3211b0e9ff07cd6cc911f2cabb36ac29818b5ec04db967
+ 'dbname' => 'bitnami_magento',
+ 'username' => 'bn_magento',
+
+
+UPDATE core_config_data SET value = 'http://www.example.com/' WHERE path LIKE 'web/unsecure/base_url';
+UPDATE core_config_data SET value = 'https://www.example.com/' WHERE path LIKE 'web/secure/base_url';
+
+
+<Developer/>
+
+/opt/bitnami/php/etc/php.ini
+
+sudo /opt/bitnami/ctlscript.sh restart
+
+PAssword Admin  :  eY8Taf9WrqEs
+
+
+ERRORS: /////////////////////////////////////////////////
+Class Mageplaza\GoogleRecaptcha\Console\Adminhtml\Command\Enable does not exist
+Class MMA\CustomApi\Api\ReviewInterface does not exist
+/////////////////////////////////////////////////////////
+
+composer require graycore/magento2-cors
+
+
+string(619) "Request sent to Payment Gateway : Start pp_Version :1.1 pp_TxnType : pp_Language :EN pp_MerchantID :MC18133 pp_SubMerchantID : pp_Password :8x8w3ag209 pp_BankID : pp_ProductID : pp_TxnRefNo :TXN120210315060907 pp_Amount :4700 pp_TxnCurrency :PKR pp_TxnDateTime :20210315060907 pp_BillReference :000000046 pp_Description :Lady Finger,Tomatos pp_TxnExpiryDateTime :20210315070907 pp_ReturnURL :http://35.199.166.172/ pp_SecureHash :a2d353403e0e202ea93a1493dea8125261962a4e05297e1b52097372df35166e ppmpf_1 : 1 ppmpf_2 : 2 ppmpf_3 : 3 ppmpf_4 : 4 ppmpf_5 : 5 Request sent to Payment Gateway : End " string(82) "https://payments.jazzcash.com.pk/CustomerPortal/transactionmanagement/merchantform"
+
+https://github.com/dsasmita/magento2-admin-theme
+
+https://magento.stackexchange.com/questions/206572/how-to-add-custom-link-in-main-menu-in-magento-2
+
+T:\app\design\frontend\Sm\fresh\Magento_Theme\templates\html\topmenu.phtml

@@ -1,0 +1,427 @@
+a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1616385260;s:6:"expire";i:1616471660;s:4:"tags";s:33:"b4f_CAT_P,b4f_BLOCK_HTML,b4f_MAGE";}
+a:2:{s:8:"policies";a:2:{i:0;a:3:{s:2:"id";s:10:"script-src";s:5:"hosts";a:0:{}s:6:"hashes";a:10:{s:44:"/PqDWJciQvcdJwCPRqIddHi8N+EhlWtTIJBQYxLgi2E=";s:6:"sha256";s:44:"48sb4Je7XoTlJimO7pm/+fwXo5BBI6oU4Vci+QqK2/I=";s:6:"sha256";s:44:"HUjaEs6gPI/8f06cL8Wy1zR3vaPjSDAYb+YL5IRBsf4=";s:6:"sha256";s:44:"9N89WMndeXJQQmez3zcXupuWhb0jRtPuHYgRtBa1Cjo=";s:6:"sha256";s:44:"USbYAI6QdARu8kOVEe99Fddx0IRFsr38y3Rrltu25A4=";s:6:"sha256";s:44:"luWYimzeo+yqIbDS60ncTGBrvzaAa0JdQIVRfE2kdkY=";s:6:"sha256";s:44:"eFuZ/KR0mTZFQLW6+9KCyrmIR+QPBzdITHKj7Ri5IHE=";s:6:"sha256";s:44:"jcwE5zgaCJdmJEmZ+eNByJLzNo6d5yUOO1M69G6rl/o=";s:6:"sha256";s:44:"c903uLD08BD71Qn2OaDM9gOavfAAQNHz1cG15tXUJ3M=";s:6:"sha256";s:44:"OfMtgTxVuEAkumMs03p4i9LkQDgucomIzpObsSpdlcw=";s:6:"sha256";}}i:1;a:3:{s:2:"id";s:9:"style-src";s:5:"hosts";a:0:{}s:6:"hashes";a:5:{s:44:"sMoBTtKt3bApnUg+x7lFf2YuiHP/BKfXr5Z+GABuXfU=";s:6:"sha256";s:44:"E3tymAut0nrml1SCgGND0wLEAMhsaGHs6vtwHjOhYSE=";s:6:"sha256";s:44:"yfJ34z1snNbS2dG/hwpYIhTYsDkqN3z58qA8ysa18+Y=";s:6:"sha256";s:44:"DDDY8Yhu556c636w40LJ7eHsnBbb8QLPPOzR+VaHlEw=";s:6:"sha256";s:44:"IpZr2dQYc/cZhV1n+V3siOHzrCaltBesdGbeUcH5zEo=";s:6:"sha256";}}}s:4:"html";s:29051:"
+    <div class="block widget block-new-products grid">
+        <div class="block-title">
+            <strong role="heading" aria-level="2">New Products</strong>
+        </div>
+        <div class="block-content">
+            <!-- new_products_content_widget_grid-->            <div class="products-grid grid">
+                <ol class="product-items widget-new-grid">
+                                        <li class="product-item">
+                        <div class="product-item-info">
+                            <a href="http://sodasulf.iibtech.com/white-grams.html"
+                               class="product-item-photo">
+                                <span class="product-image-container product-image-container-9" style="width: 300px">
+    <span class="product-image-wrapper">
+        <img class="product-image-photo lazyload"
+            
+                    src="http://sodasulf.iibtech.com/media/lazyloading/blank.png"
+            data-src="http://sodasulf.iibtech.com/static/version1616045148/frontend/Sm/fresh/en_US/Magento_Catalog/images/product/placeholder/small_image.jpg"
+        
+            loading="lazy"
+                            width="300"
+                height="300"
+                        alt="White&#x20;Grams"/></span>
+</span>
+<style>/**
+.product-image-container-9 {
+    width: 300px;
+}
+*/
+.product-image-container-9 span.product-image-wrapper {
+    padding-bottom: 100%;
+}</style><script type="text&#x2F;javascript">prodImageContainers = document.querySelectorAll(".product-image-container-9");
+/**
+for (var i = 0; i < prodImageContainers.length; i++) {
+    prodImageContainers[i].style.width = "300px";
+}
+*/
+prodImageContainersWrappers = document.querySelectorAll(
+    ".product-image-container-9  span.product-image-wrapper"
+);
+for (var i = 0; i < prodImageContainersWrappers.length; i++) {
+    prodImageContainersWrappers[i].style.paddingBottom = "100%";
+}</script>                            </a>
+                            <div class="product-item-details">
+                                <strong class="product-item-name">
+                                    <a title="White Grams"
+                                       href="http://sodasulf.iibtech.com/white-grams.html"
+                                       class="product-item-link">
+                                        White Grams                                    </a>
+                                </strong>
+                                <div class="price-box price-final_price" data-role="priceBox" data-product-id="9" data-price-box="product-id-9"><span class="normal-price">
+    
+
+<span class="price-container price-final_price&#x20;tax&#x20;weee"
+        >
+            <span class="price-label">As low as</span>
+        <span  id="old-price-9-widget-new-grid"                data-price-amount="120"
+        data-price-type="finalPrice"
+        class="price-wrapper "
+    ><span class="price">PKR120.00</span></span>
+        </span>
+</span>
+
+
+</div>
+                                                                                                    
+                                                                    <div class="product-item-actions">
+                                                                                    <div class="actions-primary">
+                                                                                                                                                                                                                    <button class="action tocart primary"
+                                                                data-post='{"action":"http:\/\/sodasulf.iibtech.com\/checkout\/cart\/add\/uenc\/aHR0cDovL3NvZGFzdWxmLmlpYnRlY2guY29tLw%2C%2C\/product\/9\/","data":{"product":9,"uenc":"aHR0cDovL3NvZGFzdWxmLmlpYnRlY2guY29tLw,,"}}'
+                                                                type="button"
+                                                                title="Add&#x20;to&#x20;Cart">
+                                                            <span>Add to Cart</span>
+                                                        </button>
+                                                                                                                                                </div>
+                                                                                                                            <div class="actions-secondary" data-role="add-to-links">
+                                                                                                    <a href="#"
+                                                       data-post='{"action":"http:\/\/sodasulf.iibtech.com\/wishlist\/index\/add\/","data":{"product":9,"uenc":"aHR0cDovL3NvZGFzdWxmLmlpYnRlY2guY29tLw,,"}}'
+                                                       class="action towishlist"
+                                                       data-action="add-to-wishlist"
+                                                       title="Add&#x20;to&#x20;Wish&#x20;List">
+                                                        <span>Add to Wish List</span>
+                                                    </a>
+                                                                                                                                                                                                        <a href="#" class="action tocompare"
+                                                       data-post='{"action":"http:\/\/sodasulf.iibtech.com\/catalog\/product_compare\/add\/","data":{"product":"9","uenc":"aHR0cDovL3NvZGFzdWxmLmlpYnRlY2guY29tLw,,"}}'
+                                                       title="Add&#x20;to&#x20;Compare">
+                                                        <span>Add to Compare</span>
+                                                    </a>
+                                                                                            </div>
+                                                                            </div>
+                                                            </div>
+                        </div>
+                     </li>
+                                        <li class="product-item">
+                        <div class="product-item-info">
+                            <a href="http://sodasulf.iibtech.com/brown-chickpeas.html"
+                               class="product-item-photo">
+                                <span class="product-image-container product-image-container-6" style="width: 300px">
+    <span class="product-image-wrapper">
+        <img class="product-image-photo lazyload"
+            
+                    src="http://sodasulf.iibtech.com/media/lazyloading/blank.png"
+            data-src="http://sodasulf.iibtech.com/media/catalog/product\cache\61fda3dfd1c952962e1a2d746d25aeaf\//d/o/download_7_.jpg"
+        
+            loading="lazy"
+                            width="300"
+                height="300"
+                        alt="Brown&#x20;Chickpeas"/></span>
+</span>
+<style>/**
+.product-image-container-6 {
+    width: 300px;
+}
+*/
+.product-image-container-6 span.product-image-wrapper {
+    padding-bottom: 100%;
+}</style><script type="text&#x2F;javascript">prodImageContainers = document.querySelectorAll(".product-image-container-6");
+/**
+for (var i = 0; i < prodImageContainers.length; i++) {
+    prodImageContainers[i].style.width = "300px";
+}
+*/
+prodImageContainersWrappers = document.querySelectorAll(
+    ".product-image-container-6  span.product-image-wrapper"
+);
+for (var i = 0; i < prodImageContainersWrappers.length; i++) {
+    prodImageContainersWrappers[i].style.paddingBottom = "100%";
+}</script>                            </a>
+                            <div class="product-item-details">
+                                <strong class="product-item-name">
+                                    <a title="Brown Chickpeas"
+                                       href="http://sodasulf.iibtech.com/brown-chickpeas.html"
+                                       class="product-item-link">
+                                        Brown Chickpeas                                    </a>
+                                </strong>
+                                <div class="price-box price-final_price" data-role="priceBox" data-product-id="6" data-price-box="product-id-6">
+    
+
+<span class="price-container price-final_price&#x20;tax&#x20;weee"
+        >
+        <span  id="old-price-6-widget-new-grid"                data-price-amount="14"
+        data-price-type="finalPrice"
+        class="price-wrapper "
+    ><span class="price">PKR14.00</span></span>
+        </span>
+
+</div>
+                                                                                                    
+                                                                    <div class="product-item-actions">
+                                                                                    <div class="actions-primary">
+                                                                                                                                                                                                                    <button class="action tocart primary"
+                                                                data-post='{"action":"http:\/\/sodasulf.iibtech.com\/checkout\/cart\/add\/uenc\/aHR0cDovL3NvZGFzdWxmLmlpYnRlY2guY29tLw%2C%2C\/product\/6\/","data":{"product":6,"uenc":"aHR0cDovL3NvZGFzdWxmLmlpYnRlY2guY29tLw,,"}}'
+                                                                type="button"
+                                                                title="Add&#x20;to&#x20;Cart">
+                                                            <span>Add to Cart</span>
+                                                        </button>
+                                                                                                                                                </div>
+                                                                                                                            <div class="actions-secondary" data-role="add-to-links">
+                                                                                                    <a href="#"
+                                                       data-post='{"action":"http:\/\/sodasulf.iibtech.com\/wishlist\/index\/add\/","data":{"product":6,"uenc":"aHR0cDovL3NvZGFzdWxmLmlpYnRlY2guY29tLw,,"}}'
+                                                       class="action towishlist"
+                                                       data-action="add-to-wishlist"
+                                                       title="Add&#x20;to&#x20;Wish&#x20;List">
+                                                        <span>Add to Wish List</span>
+                                                    </a>
+                                                                                                                                                                                                        <a href="#" class="action tocompare"
+                                                       data-post='{"action":"http:\/\/sodasulf.iibtech.com\/catalog\/product_compare\/add\/","data":{"product":"6","uenc":"aHR0cDovL3NvZGFzdWxmLmlpYnRlY2guY29tLw,,"}}'
+                                                       title="Add&#x20;to&#x20;Compare">
+                                                        <span>Add to Compare</span>
+                                                    </a>
+                                                                                            </div>
+                                                                            </div>
+                                                            </div>
+                        </div>
+                     </li>
+                                        <li class="product-item">
+                        <div class="product-item-info">
+                            <a href="http://sodasulf.iibtech.com/kidney-beans.html"
+                               class="product-item-photo">
+                                <span class="product-image-container product-image-container-5" style="width: 300px">
+    <span class="product-image-wrapper">
+        <img class="product-image-photo lazyload"
+            
+                    src="http://sodasulf.iibtech.com/media/lazyloading/blank.png"
+            data-src="http://sodasulf.iibtech.com/media/catalog/product\cache\61fda3dfd1c952962e1a2d746d25aeaf\//d/o/download_6_.jpg"
+        
+            loading="lazy"
+                            width="300"
+                height="300"
+                        alt="Kidney&#x20;Beans"/></span>
+</span>
+<style>/**
+.product-image-container-5 {
+    width: 300px;
+}
+*/
+.product-image-container-5 span.product-image-wrapper {
+    padding-bottom: 100%;
+}</style><script type="text&#x2F;javascript">prodImageContainers = document.querySelectorAll(".product-image-container-5");
+/**
+for (var i = 0; i < prodImageContainers.length; i++) {
+    prodImageContainers[i].style.width = "300px";
+}
+*/
+prodImageContainersWrappers = document.querySelectorAll(
+    ".product-image-container-5  span.product-image-wrapper"
+);
+for (var i = 0; i < prodImageContainersWrappers.length; i++) {
+    prodImageContainersWrappers[i].style.paddingBottom = "100%";
+}</script>                            </a>
+                            <div class="product-item-details">
+                                <strong class="product-item-name">
+                                    <a title="Kidney Beans"
+                                       href="http://sodasulf.iibtech.com/kidney-beans.html"
+                                       class="product-item-link">
+                                        Kidney Beans                                    </a>
+                                </strong>
+                                <div class="price-box price-final_price" data-role="priceBox" data-product-id="5" data-price-box="product-id-5">
+    
+
+<span class="price-container price-final_price&#x20;tax&#x20;weee"
+        >
+        <span  id="old-price-5-widget-new-grid"                data-price-amount="15"
+        data-price-type="finalPrice"
+        class="price-wrapper "
+    ><span class="price">PKR15.00</span></span>
+        </span>
+
+</div>
+                                                                                                    
+                                                                    <div class="product-item-actions">
+                                                                                    <div class="actions-primary">
+                                                                                                                                                                                                                    <button class="action tocart primary"
+                                                                data-post='{"action":"http:\/\/sodasulf.iibtech.com\/checkout\/cart\/add\/uenc\/aHR0cDovL3NvZGFzdWxmLmlpYnRlY2guY29tLw%2C%2C\/product\/5\/","data":{"product":5,"uenc":"aHR0cDovL3NvZGFzdWxmLmlpYnRlY2guY29tLw,,"}}'
+                                                                type="button"
+                                                                title="Add&#x20;to&#x20;Cart">
+                                                            <span>Add to Cart</span>
+                                                        </button>
+                                                                                                                                                </div>
+                                                                                                                            <div class="actions-secondary" data-role="add-to-links">
+                                                                                                    <a href="#"
+                                                       data-post='{"action":"http:\/\/sodasulf.iibtech.com\/wishlist\/index\/add\/","data":{"product":5,"uenc":"aHR0cDovL3NvZGFzdWxmLmlpYnRlY2guY29tLw,,"}}'
+                                                       class="action towishlist"
+                                                       data-action="add-to-wishlist"
+                                                       title="Add&#x20;to&#x20;Wish&#x20;List">
+                                                        <span>Add to Wish List</span>
+                                                    </a>
+                                                                                                                                                                                                        <a href="#" class="action tocompare"
+                                                       data-post='{"action":"http:\/\/sodasulf.iibtech.com\/catalog\/product_compare\/add\/","data":{"product":"5","uenc":"aHR0cDovL3NvZGFzdWxmLmlpYnRlY2guY29tLw,,"}}'
+                                                       title="Add&#x20;to&#x20;Compare">
+                                                        <span>Add to Compare</span>
+                                                    </a>
+                                                                                            </div>
+                                                                            </div>
+                                                            </div>
+                        </div>
+                     </li>
+                                        <li class="product-item">
+                        <div class="product-item-info">
+                            <a href="http://sodasulf.iibtech.com/tomatos.html"
+                               class="product-item-photo">
+                                <span class="product-image-container product-image-container-4" style="width: 300px">
+    <span class="product-image-wrapper">
+        <img class="product-image-photo lazyload"
+            
+                    src="http://sodasulf.iibtech.com/media/lazyloading/blank.png"
+            data-src="http://sodasulf.iibtech.com/media/catalog/product\cache\61fda3dfd1c952962e1a2d746d25aeaf\//d/o/download_5_.jpg"
+        
+            loading="lazy"
+                            width="300"
+                height="300"
+                        alt="Tomatos"/></span>
+</span>
+<style>/**
+.product-image-container-4 {
+    width: 300px;
+}
+*/
+.product-image-container-4 span.product-image-wrapper {
+    padding-bottom: 100%;
+}</style><script type="text&#x2F;javascript">prodImageContainers = document.querySelectorAll(".product-image-container-4");
+/**
+for (var i = 0; i < prodImageContainers.length; i++) {
+    prodImageContainers[i].style.width = "300px";
+}
+*/
+prodImageContainersWrappers = document.querySelectorAll(
+    ".product-image-container-4  span.product-image-wrapper"
+);
+for (var i = 0; i < prodImageContainersWrappers.length; i++) {
+    prodImageContainersWrappers[i].style.paddingBottom = "100%";
+}</script>                            </a>
+                            <div class="product-item-details">
+                                <strong class="product-item-name">
+                                    <a title="Tomatos"
+                                       href="http://sodasulf.iibtech.com/tomatos.html"
+                                       class="product-item-link">
+                                        Tomatos                                    </a>
+                                </strong>
+                                <div class="price-box price-final_price" data-role="priceBox" data-product-id="4" data-price-box="product-id-4">
+    
+
+<span class="price-container price-final_price&#x20;tax&#x20;weee"
+        >
+        <span  id="old-price-4-widget-new-grid"                data-price-amount="10"
+        data-price-type="finalPrice"
+        class="price-wrapper "
+    ><span class="price">PKR10.00</span></span>
+        </span>
+
+</div>
+                                                                                                    
+                                                                    <div class="product-item-actions">
+                                                                                    <div class="actions-primary">
+                                                                                                                                                                                                                    <button class="action tocart primary"
+                                                                data-post='{"action":"http:\/\/sodasulf.iibtech.com\/checkout\/cart\/add\/uenc\/aHR0cDovL3NvZGFzdWxmLmlpYnRlY2guY29tLw%2C%2C\/product\/4\/","data":{"product":4,"uenc":"aHR0cDovL3NvZGFzdWxmLmlpYnRlY2guY29tLw,,"}}'
+                                                                type="button"
+                                                                title="Add&#x20;to&#x20;Cart">
+                                                            <span>Add to Cart</span>
+                                                        </button>
+                                                                                                                                                </div>
+                                                                                                                            <div class="actions-secondary" data-role="add-to-links">
+                                                                                                    <a href="#"
+                                                       data-post='{"action":"http:\/\/sodasulf.iibtech.com\/wishlist\/index\/add\/","data":{"product":4,"uenc":"aHR0cDovL3NvZGFzdWxmLmlpYnRlY2guY29tLw,,"}}'
+                                                       class="action towishlist"
+                                                       data-action="add-to-wishlist"
+                                                       title="Add&#x20;to&#x20;Wish&#x20;List">
+                                                        <span>Add to Wish List</span>
+                                                    </a>
+                                                                                                                                                                                                        <a href="#" class="action tocompare"
+                                                       data-post='{"action":"http:\/\/sodasulf.iibtech.com\/catalog\/product_compare\/add\/","data":{"product":"4","uenc":"aHR0cDovL3NvZGFzdWxmLmlpYnRlY2guY29tLw,,"}}'
+                                                       title="Add&#x20;to&#x20;Compare">
+                                                        <span>Add to Compare</span>
+                                                    </a>
+                                                                                            </div>
+                                                                            </div>
+                                                            </div>
+                        </div>
+                     </li>
+                                        <li class="product-item">
+                        <div class="product-item-info">
+                            <a href="http://sodasulf.iibtech.com/lady-finger.html"
+                               class="product-item-photo">
+                                <span class="product-image-container product-image-container-3" style="width: 300px">
+    <span class="product-image-wrapper">
+        <img class="product-image-photo lazyload"
+            
+                    src="http://sodasulf.iibtech.com/media/lazyloading/blank.png"
+            data-src="http://sodasulf.iibtech.com/media/catalog/product\cache\61fda3dfd1c952962e1a2d746d25aeaf\//d/o/download_4_.jpg"
+        
+            loading="lazy"
+                            width="300"
+                height="300"
+                        alt="Lady&#x20;Finger"/></span>
+</span>
+<style>/**
+.product-image-container-3 {
+    width: 300px;
+}
+*/
+.product-image-container-3 span.product-image-wrapper {
+    padding-bottom: 100%;
+}</style><script type="text&#x2F;javascript">prodImageContainers = document.querySelectorAll(".product-image-container-3");
+/**
+for (var i = 0; i < prodImageContainers.length; i++) {
+    prodImageContainers[i].style.width = "300px";
+}
+*/
+prodImageContainersWrappers = document.querySelectorAll(
+    ".product-image-container-3  span.product-image-wrapper"
+);
+for (var i = 0; i < prodImageContainersWrappers.length; i++) {
+    prodImageContainersWrappers[i].style.paddingBottom = "100%";
+}</script>                            </a>
+                            <div class="product-item-details">
+                                <strong class="product-item-name">
+                                    <a title="Lady Finger"
+                                       href="http://sodasulf.iibtech.com/lady-finger.html"
+                                       class="product-item-link">
+                                        Lady Finger                                    </a>
+                                </strong>
+                                <div class="price-box price-final_price" data-role="priceBox" data-product-id="3" data-price-box="product-id-3">
+    
+
+<span class="price-container price-final_price&#x20;tax&#x20;weee"
+        >
+        <span  id="old-price-3-widget-new-grid"                data-price-amount="11"
+        data-price-type="finalPrice"
+        class="price-wrapper "
+    ><span class="price">PKR11.00</span></span>
+        </span>
+
+</div>
+                                                                                                    
+                                                                    <div class="product-item-actions">
+                                                                                    <div class="actions-primary">
+                                                                                                                                                                                                                    <button class="action tocart primary"
+                                                                data-post='{"action":"http:\/\/sodasulf.iibtech.com\/checkout\/cart\/add\/uenc\/aHR0cDovL3NvZGFzdWxmLmlpYnRlY2guY29tLw%2C%2C\/product\/3\/","data":{"product":3,"uenc":"aHR0cDovL3NvZGFzdWxmLmlpYnRlY2guY29tLw,,"}}'
+                                                                type="button"
+                                                                title="Add&#x20;to&#x20;Cart">
+                                                            <span>Add to Cart</span>
+                                                        </button>
+                                                                                                                                                </div>
+                                                                                                                            <div class="actions-secondary" data-role="add-to-links">
+                                                                                                    <a href="#"
+                                                       data-post='{"action":"http:\/\/sodasulf.iibtech.com\/wishlist\/index\/add\/","data":{"product":3,"uenc":"aHR0cDovL3NvZGFzdWxmLmlpYnRlY2guY29tLw,,"}}'
+                                                       class="action towishlist"
+                                                       data-action="add-to-wishlist"
+                                                       title="Add&#x20;to&#x20;Wish&#x20;List">
+                                                        <span>Add to Wish List</span>
+                                                    </a>
+                                                                                                                                                                                                        <a href="#" class="action tocompare"
+                                                       data-post='{"action":"http:\/\/sodasulf.iibtech.com\/catalog\/product_compare\/add\/","data":{"product":"3","uenc":"aHR0cDovL3NvZGFzdWxmLmlpYnRlY2guY29tLw,,"}}'
+                                                       title="Add&#x20;to&#x20;Compare">
+                                                        <span>Add to Compare</span>
+                                                    </a>
+                                                                                            </div>
+                                                                            </div>
+                                                            </div>
+                        </div>
+                     </li>
+                                    </ol>
+            </div>
+                    </div>
+    </div>
+";}

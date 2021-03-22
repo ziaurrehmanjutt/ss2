@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../app/code/Magento/Webapi/etc/webapi.xsd">
+
+
+    <route url="/V1/orderrefund/singleorder/:order_id" method="GET">
+        <service class="Bss\RefundRequest\Api\RefundInterface" method="getOrderCollectionByCustomerIdApi"/>
+        <resources>
+              <resource ref="anonymous" />
+        </resources>
+    </route>
+
+    <route url="/V1/orderrefund/singleorder/:order_id" method="POST">
+        <service class="Bss\RefundRequest\Api\RefundInterface" method="addOrderRefund"/>
+        <resources>
+              <resource ref="anonymous" />
+        </resources>
+    </route>
+
+    <route url="/V1/orderrefund/chnagestatus/:status" method="POST">
+        <service class="Bss\RefundRequest\Api\RefundInterface" method="changeOrderStatus"/>
+        <resources>
+              <resource ref="anonymous" />
+        </resources>
+    </route>
+
+        <route url="/V1/orderrefund/getall" method="GET">
+        <service class="Bss\RefundRequest\Api\RefundInterface" method="getAllRequests"/>
+        <resources>
+              <resource ref="anonymous" />
+        </resources>
+    </route>
+
+</routes> 

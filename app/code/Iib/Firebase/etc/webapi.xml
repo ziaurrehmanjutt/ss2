@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../app/code/Magento/Webapi/etc/webapi.xsd">
+    <route url="/V1/firebase/addtoken" method="POST">
+        <service class="Iib\Firebase\Api\FirebaseInterface" method="addCustomerToken"/>
+        <resources>
+            <resource ref="anonymous"/>
+        </resources>
+    </route>
+
+    <route url="/V1/firebase/getall" method="POST">
+        <service class="Iib\Firebase\Api\FirebaseInterface" method="getAllNotifications"/>
+        <resources>
+            <resource ref="anonymous"/>
+        </resources>
+    </route>
+</routes>

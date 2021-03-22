@@ -1,0 +1,89 @@
+<?php
+/**
+ * Copyright © Magefan (support@magefan.com). All rights reserved.
+ * See LICENSE.txt for license details (http://opensource.org/licenses/osl-3.0.php).
+ *
+ * Glory to Ukraine! Glory to the heroes!
+ */
+?>
+<?php
+/**
+ * Blog recent posts widget
+ *
+ * @var $block \Magefan\Blog\Block\Widget\Recent
+ */
+?>
+
+<?php
+$_postCollection   = $block->getPostCollection();
+$_config           = $this->helper('Sm\Themecore\Helper\Data');
+$enableLadyLoading = $_config->getAdvanced('lazyload_group/enable_ladyloading');
+$mediaSrc          = $_config->getMediaUrl();
+if ($enableLadyLoading) {
+    $imgClass = 'lazyload';
+} else {
+    $imgClass = '';
+}
+?>
+<div class="block block-slider-post">
+    <div class="block-title">
+        <strong><?php echo $block->escapeHtml($block->getTitle()) ?></strong>
+         <p class="pretext"><?php echo __('Look at the sunset, life is amazing, life is beautiful, life is what you make it.'); ?></p>
+    </div>
+
+    <div class="block-content">
+        <?php if ($_postCollection->count()) { ?>
+            <div class="owl-carousel owl-theme">
+                <?php foreach ($_postCollection as $_post) { ?>
+                    <?php
+                    $_postUrl  = $_post->getPostUrl();
+                    $_postName = $block->escapeHtml($_post->getTitle(), null, true);
+                    ?>
+                    <div class="item">
+                        <div class="date-month g2-font">
+                            <?php
+                                $date_post = $_post->getPublishDate('Y-m-d');
+                                $day       = date('d', strtotime($date_post));
+                                $month     = date('M', strtotime($date_post));
+                            ?>
+                            <div class="day "> <?php echo $day; ?></div>
+                            <div class="month"> <?php echo $month; ?></div>
+                                   
+                        </div>
+                        <div class="info-post">
+                            
+
+                            <div class="post-title">
+                                <a class="post-item-link"
+                                   href="<?php echo $_postUrl ?>">
+                                    <?php echo $_postName; ?>
+                                </a>
+                            </div>
+                            <div class="post-date">
+                                <span class="label"><?php echo __('Posted:') ?></span>
+                                <span class="value"><?php echo $_post->getPublishDate('F d, Y') ?></span>
+                            </div>
+                            <div class="post-short-description">
+                                <?php echo $block->getShorContent($_post) ?>
+                            </div>
+
+                            <div class="post-read-mores ">
+                                <a class="text-theme-color" href="<?php echo $_postUrl ?>"
+                                   title="<?php echo $_postName ?>"><?php echo __('Read more') ?></a>
+                            </div>
+                        </div>
+                    </div>
+                <?php } ?>
+            </div>
+
+            <div class="loading-content">
+                <span class="hidden"><?php echo __('Loading...') ?></span>
+            </div>
+        <?php } else { ?>
+            <div class="message info empty">
+                <div><?php /* @escapeNotVerified */
+                    echo __('We can\'t find post matching the selection.') ?></div>
+            </div>
+        <?php } ?>
+    </div>
+</div>

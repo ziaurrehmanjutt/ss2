@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../lib/internal/Magento/Framework/ObjectManager/etc/config.xsd">
+
+    <preference for="Iib\CustomApi\Api\MyReviewInterface" type="Iib\CustomApi\Model\MyReviewClass" />
+    <preference for="Iib\CustomApi\Api\WishlistManagementInterface" type="Iib\CustomApi\Model\WishlistManagement" />
+
+</config>

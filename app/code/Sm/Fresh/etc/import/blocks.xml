@@ -1,0 +1,646 @@
+<?xml version="1.0"?>
+<root>
+  <blocks>
+    <cms_item>
+      <title>Fresh - Footer 1 Content</title>
+      <identifier>footer-1-content</identifier>
+      <content><![CDATA[<div class="footer-top">
+<div class="container">
+<div class="row">
+<div class="col-lg-3 col-sm-6">
+<div class="block-footer">
+<div class="logo-ft"><a href="#"><img src="{{media url=&quot;wysiwyg/logo-ft.png&quot;}}" alt=""></a></div>
+<div class="block-footer-content footer-contact">
+<ul>
+<li class="address">356 Stress City, Cambridge</li>
+<li class="phone">+999 333 555</li>
+<li class="email">ecogreen@vipstore.com</li>
+<li class="time">ecogreen.com</li>
+</ul>
+</div>
+<div class="social-footer">
+<ul>
+<li><a class="icon-facebook" title="Facebook" href="https://www.facebook.com/MagenTech"> <span class="hidden">Facebook</span> </a></li>
+<li><a class="icon-twitter" title="Twitter" href="https://twitter.com/MagenTech"> <span class="hidden">Twitter</span> </a></li>
+<li><a class="icon-instagram" title="Instagram" href="#"> <span class="hidden">Instagram</span> </a></li>
+<li><a class="icon-youtube" title="Youtube" href="https://www.youtube.com/user/smartaddons"> <span class="hidden">Youtube</span> </a></li>
+<li><a class="icon-linkedin" title="Linkedin" href="https://www.linkedin.com/in/magentech/"> <span class="hidden">Linkedin</span> </a></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="col-lg-3 col-sm-6 footer-links">
+<div class="row">
+<div class="col-sm-6">
+<div class="block-footer">
+<div class="block-footer-title">Information</div>
+<div class="block-footer-content">
+<ul>
+<li><a href="#">Contact Us</a></li>
+<li><a href="#">Shipping &amp; Return</a></li>
+<li><a href="#">Customer FAQ</a></li>
+<li><a href="#">Care Tips</a></li>
+<li><a href="#">Size Charts</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="col-sm-6">
+<div class="block-footer">
+<div class="block-footer-title">Account</div>
+<div class="block-footer-content">
+<ul>
+<li><a href="#">Policy</a></li>
+<li><a href="#">Symtem Program</a></li>
+<li><a href="#">Return</a></li>
+<li><a href="#">Size Map</a></li>
+<li><a href="#">Healthy</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-lg-3 col-md-6">
+<div class="block-footer">
+<div class="block-footer-title">Instagram<span class="g2-font">@ecogreen.com</span></div>
+<div class="footer-block-instagram">
+<ul>
+<li><a class="fancybox" href="{{media url=&quot;wysiwyg/instagram/1.jpg&quot;}}"><img src="{{media url=&quot;wysiwyg/instagram/1_1.jpg&quot;}}" alt=""></a></li>
+<li><a class="fancybox" href="{{media url=&quot;wysiwyg/instagram/2.jpg&quot;}}"><img src="{{media url=&quot;wysiwyg/instagram/2_2.jpg&quot;}}" alt=""></a></li>
+<li><a class="fancybox" href="{{media url=&quot;wysiwyg/instagram/3.jpg&quot;}}"><img src="{{media url=&quot;wysiwyg/instagram/3_3.jpg&quot;}}" alt=""></a></li>
+<li><a class="fancybox" href="{{media url=&quot;wysiwyg/instagram/4.jpg&quot;}}"><img src="{{media url=&quot;wysiwyg/instagram/4_4.jpg&quot;}}" alt=""></a></li>
+<li><a class="fancybox" href="{{media url=&quot;wysiwyg/instagram/5.jpg&quot;}}"><img src="{{media url=&quot;wysiwyg/instagram/5_5.jpg&quot;}}" alt=""></a></li>
+<li><a class="fancybox" href="{{media url=&quot;wysiwyg/instagram/6.jpg&quot;}}"><img src="{{media url=&quot;wysiwyg/instagram/6_6.jpg&quot;}}" alt=""></a></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="col-lg-3 col-md-6">
+<div class="block-footer">
+<div class="block-footer-title">Newsletter</div>
+<div class="subcribe-footer-content">
+<div class="subcribe-footer-title">There are many variations of passages of Lorem Ipsum available</div>
+{{block class="Magento\Newsletter\Block\Subscribe" template="subscribe-footer.phtml"}}</div>
+</div>
+</div>
+</div>
+</div>
+</div>]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_item>
+    <cms_item>
+      <title>Fresh - Footer Payments</title>
+      <identifier>footer-payments</identifier>
+      <content><![CDATA[<div class="footer-payments"><img class="mark-lazy" src="{{media url=&quot;wysiwyg/payments/payment-footer.png&quot;}}" alt="Payments" width="370" height="32" ></div>]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_item>
+    <cms_item>
+      <title>Theme - Megamenu Vertical Config</title>
+      <identifier>megamenu-vertical</identifier>
+      <content><![CDATA[<div class="vertical-menu">{{block class="Sm\MegaMenu\Block\MegaMenu\View" template="Sm_MegaMenu::vertical.phtml" theme="2" group_id="2" title="All Categories"}}</div>]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_item>
+    <cms_item>
+      <title>Theme - Megamenu Horizontal Config</title>
+      <identifier>megamenu-horizontal</identifier>
+      <content><![CDATA[<div class="horizontal-menu">{{block class="Sm\MegaMenu\Block\MegaMenu\View" template="Sm_MegaMenu::horizontal.phtml" theme="1" group_id="1"}}</div>]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_item>
+    <cms_item>
+      <title>Theme - About Us Content</title>
+      <identifier>about-us-content</identifier>
+      <content><![CDATA[<div class="about-container">
+<div class="page-title-wrapper">
+<h1 class="page-title">About Us</h1>
+</div>
+<div class="about-image"><img src="{{media url=&quot;wysiwyg/about-us/about-image.jpg&quot;}}" alt="About Image"></div>
+<div class="block-welcome">
+<div class="bonus-title"><strong>Welcome to EcoGreen</strong></div>
+<div class="bonus-content">
+<p>Nulla auctor mauris ut dui luctus semper. In hac habitasse platea dictumst. Duis pellentesque ligula a risus suscipit dignissim. Nunc non nisl lacus. Integer pharetra lacinia dapibus. Donec eu dolor dui, vel posuere mauris. Nulla auctor mauris ut dui luctus semper.</p>
+<p>Pellentesque semper congue sodales. In consequat, metus eget con sequat ornare, augue dolor blandit purus, vitae lacinia nisi tellus in erat. Nulla ac justo eget massa aliquet sodales. Maecenas mattis male suada sem, in fringilla massa dapibus quis. Suspendisse aliquam leo id neque auctor molestie. Etiam at nulla tellus.</p>
+<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
+</div>
+</div>
+<div class="our-member">
+<div class="bonus-title"><strong>Our Team</strong>
+<p>It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures</p>
+</div>
+<div class="bonus-content">
+<div class="nav-style-1 hover-to-show absolute-nav">
+<div data-owl="owl-slider" data-autoplay="false" data-nav="false" data-dots="false" data-screen0="1" data-screen481="2" data-screen768="3" data-screen992="3" data-screen1200="3" data-screen1441="3" data-screen1681="3" data-screen1920="3" data-margin="30" data-autoplayhoverpause="false" data-loop="false" data-center="false" data-stagepadding="0" data-mousedrag="true" data-touchdrag="true">
+<div class="owl-carousel owl-theme">
+<div class="item">
+<div class="member-image">
+<div class="image-content"><img class="mark-lazy" src="{{media url=&quot;wysiwyg/about-us/member/item-1.jpg&quot;}}" alt="Member Image">
+<ul class="member-social">
+<li><a class="icon-facebook" title="Facebook" href="#"> <span class="hidden">Facebook</span> </a></li>
+<li><a class="icon-twitter" title="Twitter" href="#"> <span class="hidden">Twitter</span> </a></li>
+<li><a class="icon-instagram" title="Instagram" href="#"> <span class="hidden">Instagram</span> </a></li>
+</ul>
+</div>
+</div>
+<div class="member-info">
+<div class="member-name">Mark Levinson</div>
+<div class="member-job">Founder &amp; CEO</div>
+</div>
+</div>
+<div class="item">
+<div class="member-image">
+<div class="image-content"><img class="mark-lazy" src="{{media url=&quot;wysiwyg/about-us/member/item-2.jpg&quot;}}" alt="Member Image">
+<ul class="member-social">
+<li><a class="icon-facebook" title="Facebook" href="#"> <span class="hidden">Facebook</span> </a></li>
+<li><a class="icon-twitter" title="Twitter" href="#"> <span class="hidden">Twitter</span> </a></li>
+<li><a class="icon-instagram" title="Instagram" href="#"> <span class="hidden">Instagram</span> </a></li>
+</ul>
+</div>
+</div>
+<div class="member-info">
+<div class="member-name">Ria Sakurai</div>
+<div class="member-job">Testing</div>
+</div>
+</div>
+<div class="item">
+<div class="member-image">
+<div class="image-content"><img class="mark-lazy" src="{{media url=&quot;wysiwyg/about-us/member/item-3.jpg&quot;}}" alt="Member Image">
+<ul class="member-social">
+<li><a class="icon-facebook" title="Facebook" href="#"> <span class="hidden">Facebook</span> </a></li>
+<li><a class="icon-twitter" title="Twitter" href="#"> <span class="hidden">Twitter</span> </a></li>
+<li><a class="icon-instagram" title="Instagram" href="#"> <span class="hidden">Instagram</span> </a></li>
+</ul>
+</div>
+</div>
+<div class="member-info">
+<div class="member-name">Shiego Tokuda</div>
+<div class="member-job">Marketing</div>
+</div>
+</div>
+<div class="item">
+<div class="member-image">
+<div class="image-content"><img class="mark-lazy" src="{{media url=&quot;wysiwyg/about-us/member/item-1.jpg&quot;}}" alt="Member Image">
+<ul class="member-social">
+<li><a class="icon-facebook" title="Facebook" href="#"> <span class="hidden">Facebook</span> </a></li>
+<li><a class="icon-twitter" title="Twitter" href="#"> <span class="hidden">Twitter</span> </a></li>
+<li><a class="icon-instagram" title="Instagram" href="#"> <span class="hidden">Instagram</span> </a></li>
+</ul>
+</div>
+</div>
+<div class="member-info">
+<div class="member-name">Tom Lymaskira</div>
+<div class="member-job">Developer</div>
+</div>
+</div>
+<div class="item">
+<div class="member-image">
+<div class="image-content"><img class="mark-lazy" src="{{media url=&quot;wysiwyg/about-us/member/item-2.jpg&quot;}}" alt="Member Image">
+<ul class="member-social">
+<li><a class="icon-facebook" title="Facebook" href="#"> <span class="hidden">Facebook</span> </a></li>
+<li><a class="icon-twitter" title="Twitter" href="#"> <span class="hidden">Twitter</span> </a></li>
+<li><a class="icon-instagram" title="Instagram" href="#"> <span class="hidden">Instagram</span> </a></li>
+</ul>
+</div>
+</div>
+<div class="member-info">
+<div class="member-name">Tom Lymaskira</div>
+<div class="member-job">Developer</div>
+</div>
+</div>
+</div>
+<div class="loading-content"><span class="hidden">Loading...</span></div>
+</div>
+</div>
+</div>
+</div>
+</div>]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_item>
+    <cms_item>
+      <title>Theme - Google Map</title>
+      <identifier>google-map</identifier>
+      <content><![CDATA[<div class="map">
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.8352535722393!2d144.95373531573256!3d-37.8173276797518!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad65d4c2b349649%3A0xb6899234e561db11!2sEnvato!5e0!3m2!1svi!2s!4v1558405327045!5m2!1svi!2s" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+</div>]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_item>
+    <cms_item>
+      <title>Theme - Contact Us Info</title>
+      <identifier>contact-us-info</identifier>
+      <content><![CDATA[<div class="contact-us-info">
+<div class="bonus-title"><strong>Contact Us</strong></div>
+<div class="bonus-content">
+<p class="des">Lorem ipsum dolor sit amet conse ctetur adipisicing elit, <br> sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <br> Quis nostrud exercitation ullamco laboris nisi ut</p>
+<ul class="info-contact">
+<li class="address">5611 Wellington Road, Suite 115, Gainesville,<br>VA 20155</li>
+<li class="phone">888 9344 6000 - 888 1234 6789</li>
+<li class="email">fresh-store@magentech.com</li>
+</ul>
+<ul class="contact-social">
+<li><a class="icon-facebook" title="Facebook" href="#"> <span class="hidden">Facebook</span> </a></li>
+<li><a class="icon-twitter" title="Twitter" href="#"> <span class="hidden">Twitter</span> </a></li>
+<li><a class="icon-instagram" title="Instagram" href="#"> <span class="hidden">Instagram</span> </a></li>
+<li><a class="icon-youtube" title="Youtube" href="#"> <span class="hidden">Youtube</span> </a></li>
+<li><a class="icon-linkedin" title="Linkedin" href="#"> <span class="hidden">Linkedin</span> </a></li>
+</ul>
+</div>
+</div>]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_item>
+    <cms_item>
+      <title>Theme - Newsletter Popup Image</title>
+      <identifier>newsletter-popup-image</identifier>
+      <content><![CDATA[<div><a title="Image Newsletter" href="#"><img src="{{media url=&quot;wysiwyg/newsletter/image-newsletter-popup.jpg&quot;}}" alt="Image Newsletter" width="355" height="370" /></a></div>]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_item>
+    <cms_item>
+      <title>Theme - Newsletter Popup Description</title>
+      <identifier>newsletter-popup-description</identifier>
+      <content><![CDATA[<div class="newsletter-title">
+<h3>Newsletter</h3>
+</div>
+<div class="short-description">Subscribe to the mailing list to receive updates on new arrivals, special offers and other discount information.</div>]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_item>
+    <cms_item>
+      <title>Fresh - Product List - Sidebar</title>
+      <identifier>product-sidebar</identifier>
+      <content><![CDATA[<div class="product-sidebar hidden-rating">{{block class="Sm\FilterProducts\Block\FilterProducts" template="Sm_FilterProducts::list-sidebar.phtml" title_module="Bestsellers" product_source="best_sellers" select_category="" product_limitation="4" display_countdown="0" date_to=""}}</div>]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_item>
+    <cms_item>
+      <title>Fresh - Banner - Sidebar</title>
+      <identifier>banner-sidebar</identifier>
+      <content><![CDATA[<div class="banner-image"><a title="Banner Image" href="#"><img class="mark-lazy" src="{{media url=&quot;wysiwyg/banner/banner-sidebar.jpg&quot;}}" alt="Banner Image"></a></div>]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_item>
+    <cms_item>
+      <title>Fresh - Product Vertical Megamenu</title>
+      <identifier>product-megamenu</identifier>
+      <content><![CDATA[<div class="product-megamenu hidden-block-title">{{block class="Sm\FilterProducts\Block\FilterProducts" template="Sm_FilterProducts::product-megamenu.phtml" title_module="Hot Products" product_source="best_sellers" select_category="4" product_limitation="1" display_countdown="0" date_to=""}}</div>]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_item>
+    <cms_item>
+      <title>Fresh - Footer 2 Content</title>
+      <identifier>footer-2-content</identifier>
+      <content><![CDATA[<div class="footer-top">
+<div class="container">
+<div class="social-app">
+<div class="row">
+<div class="col-sm-6">
+<div class="box block-appstore">
+<div class="box-title">Download app</div>
+<ul>
+<li><a title="" href="#"><img class="mark-lazy" src="{{media url=&quot;wysiwyg/icon/g-play.png&quot;}}" alt=""></a></li>
+<li><a title="" href="#"><img class="mark-lazy" src="{{media url=&quot;wysiwyg/icon/app-store.png&quot;}}" alt=""></a></li>
+</ul>
+</div>
+</div>
+<div class="col-sm-6">
+<div class="social-footer box">
+<div class="block-footer-title box-title">Follow Us</div>
+<ul>
+<li><a class="icon-facebook" title="Facebook" href="https://www.facebook.com/MagenTech"> <span class="hidden">Facebook</span> </a></li>
+<li><a class="icon-twitter" title="Twitter" href="https://twitter.com/MagenTech"> <span class="hidden">Twitter</span> </a></li>
+<li><a class="icon-instagram" title="Instagram" href="#"> <span class="hidden">Instagram</span> </a></li>
+<li><a class="icon-youtube" title="Youtube" href="https://www.youtube.com/user/smartaddons"> <span class="hidden">Youtube</span> </a></li>
+<li><a class="icon-linkedin" title="Linkedin" href="https://www.linkedin.com/in/magentech/"> <span class="hidden">Linkedin</span> </a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="footer-middle">
+<div class="container">
+<div class="row">
+<div class="col-xl-2 col-lg-4">
+<div class="block-footer">
+<div class="block-footer-title">About Ecogreen</div>
+<div class="block-footer-content footer-contact">
+<p>Lorem ipsum dolor sit amet isse potenti. Vesquam ante aliquet lacusemper elit. Cras neque nulla, convallis non commo do et, euismod nonsese</p>
+<p>Cras neque nulla, convallis non commodo et, euismod nonsese</p>
+</div>
+</div>
+</div>
+<div class="col-xl-2 col-lg-4">
+<div class="block-footer">
+<div class="block-footer-title">Contact Us</div>
+<div class="block-footer-content footer-contact">
+<ul>
+<li class="address">356 Stress City, Cambridge</li>
+<li class="phone">+999 333 555</li>
+<li class="email">ecogreen@vipstore.com</li>
+<li class="time">ecogreen.com</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="col-xl-3 col-lg-4">
+<div class="block-footer">
+<div class="block-footer-title">Our Links</div>
+<div class="block-footer-content">
+<div class="row">
+<div class="col-sm-6">
+<ul>
+<li><a href="#">Contact Us</a></li>
+<li><a href="#">Shipping &amp; Return</a></li>
+<li><a href="#">Customer FAQ</a></li>
+<li><a href="#">Care Tips</a></li>
+<li><a href="#">Size Charts</a></li>
+</ul>
+</div>
+<div class="col-sm-6">
+<ul>
+<li><a href="#">Account</a></li>
+<li><a href="#">Order Status</a></li>
+<li><a href="#">My Designers</a></li>
+<li><a href="#">Registry</a></li>
+<li><a href="#">Events</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-xl-3 col-lg-4">
+<div class="row">
+<div class="col-sm-6">
+<div class="block-footer">
+<div class="block-footer-title">Account</div>
+<div class="block-footer-content">
+<ul>
+<li><a href="#">Support 24/7</a></li>
+<li><a href="#">Freeshipping</a></li>
+<li><a href="#">Secure Shopping</a></li>
+<li><a href="#">International Shipping</a></li>
+<li><a href="#">Return Shipping</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="col-sm-6">
+<div class="block-footer">
+<div class="block-footer-title">Infomation</div>
+<div class="block-footer-content">
+<ul>
+<li><a href="#">Support 24/7</a></li>
+<li><a href="#">Freeshipping</a></li>
+<li><a href="#">Secure Shopping</a></li>
+<li><a href="#">International Shipping</a></li>
+<li><a href="#">Return Shipping</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-xl-2 col-lg-4">
+<div class="block-footer">
+<div class="block-footer-title">Newletter</div>
+<div class="subcribe-footer-content">{{block class="Magento\Newsletter\Block\Subscribe" template="subscribe-footer.phtml"}}</div>
+</div>
+</div>
+</div>
+</div>
+</div>]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_item>
+    <cms_item>
+      <title>Fresh - Policy Header</title>
+      <identifier>header-policy</identifier>
+      <content><![CDATA[<p class="text-theme-color header-policy">Free 3 day delivery and free returns within the US</p>]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_item>
+    <cms_item>
+      <title>Fresh - Contact Header 1</title>
+      <identifier>header-contact-v1</identifier>
+      <content><![CDATA[<p class="phone-header">Call Us Now: 0123-444-666</p>]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_item>
+    <cms_item>
+      <title>Fresh - Contact Header 2</title>
+      <identifier>header-contact-v2</identifier>
+      <content><![CDATA[<div class="header-contact d-none d-xl-block">
+<h4>Call Support 24/7</h4>
+<p>(+84)-2745-6788</p>
+</div>]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_item>
+    <cms_item>
+      <title>Fresh - Block col Left home page 2</title>
+      <identifier>block-colleft-v2</identifier>
+      <content><![CDATA[<div class="vertical-block vertical-block d-none d-lg-block">
+<div class="vertical-menu">{{block class="Sm\MegaMenu\Block\MegaMenu\View" template="Sm_MegaMenu::vertical.phtml" theme="2" group_id="2" title="All Categories"}}</div>
+</div>
+<div class="product-slider slider-product-1 nav-style-1 absolute-nav">
+<div data-owl="owl-slider" data-autoplay="false" data-nav="true" data-dots="false" data-screen0="1" data-screen481="1" data-screen768="2" data-screen992="1" data-screen1200="1" data-screen1441="1" data-screen1681="1" data-screen1920="1" data-margin="30" data-autoplayhoverpause="true" data-loop="false" data-center="false" data-stagepadding="0" data-mousedrag="true" data-touchdrag="true">{{block class="Sm\FilterProducts\Block\FilterProducts" template="Sm_FilterProducts::deal-v2.phtml" title_module="Deals of The Day" product_source="special_products" select_category="" product_limitation="3" display_countdown="1" date_to=""}}</div>
+</div>
+<p><a class="banner-image" style="margin-bottom: 30px;" href="#"><img class="mark-lazy" src="{{media url=&quot;wysiwyg/banner/item-10.jpg&quot;}}" alt=""></a></p>
+<div class="product-slider slider-product-1 nav-style-1 absolute-nav">
+<div data-owl="owl-slider" data-autoplay="false" data-nav="true" data-dots="false" data-screen0="1" data-screen481="1" data-screen768="2" data-screen992="1" data-screen1200="1" data-screen1441="1" data-screen1681="1" data-screen1920="1" data-margin="30" data-autoplayhoverpause="true" data-loop="false" data-center="false" data-stagepadding="0" data-mousedrag="true" data-touchdrag="true">{{block class="Sm\FilterProducts\Block\FilterProducts" template="Sm_FilterProducts::list-slider.phtml" title_module="Featured Products" product_source="featured_products" select_category="" product_limitation="6" display_countdown="0" date_to=""}}</div>
+<a class="banner-image" style="margin-bottom: 30px;" href="#"><img class="mark-lazy" src="{{media url=&quot;wysiwyg/banner/item-11.jpg&quot;}}" alt=""></a>
+<div class="block block-brand nav-style-1 absolute-nav">
+<div class="block-title"><strong>Featured Brands</strong></div>
+<div data-owl="owl-slider" data-autoplay="true" data-nav="true" data-dots="false" data-screen0="1" data-screen481="1" data-screen768="2" data-screen992="1" data-screen1200="1" data-screen1441="1" data-screen1681="1" data-screen1920="1" data-margin="1" data-autoplayhoverpause="true" data-loop="true" data-center="false" data-stagepadding="0" data-mousedrag="true" data-touchdrag="true">
+<div class="owl-carousel owl-theme">
+<div class="item-row">
+<div class="item"><a href="#"><img class="mark-lazy" src="{{media url=&quot;wysiwyg/brand/item-7.jpg&quot;}}" alt=""></a></div>
+<div class="item"><a href="#"><img class="mark-lazy" src="{{media url=&quot;wysiwyg/brand/item-8.jpg&quot;}}" alt=""></a></div>
+<div class="item"><a href="#"><img class="mark-lazy" src="{{media url=&quot;wysiwyg/brand/item-9.jpg&quot;}}" alt=""></a></div>
+<div class="item"><a href="#"><img class="mark-lazy" src="{{media url=&quot;wysiwyg/brand/item-10.jpg&quot;}}" alt=""></a></div>
+<div class="item"><a href="#"><img class="mark-lazy" src="{{media url=&quot;wysiwyg/brand/item-11.jpg&quot;}}" alt=""></a></div>
+<div class="item"><a href="#"><img class="mark-lazy" src="{{media url=&quot;wysiwyg/brand/item-12.jpg&quot;}}" alt=""></a></div>
+</div>
+<div class="item-row">
+<div class="item"><a href="#"><img class="mark-lazy" src="{{media url=&quot;wysiwyg/brand/item-7.jpg&quot;}}" alt=""></a></div>
+<div class="item"><a href="#"><img class="mark-lazy" src="{{media url=&quot;wysiwyg/brand/item-8.jpg&quot;}}" alt=""></a></div>
+<div class="item"><a href="#"><img class="mark-lazy" src="{{media url=&quot;wysiwyg/brand/item-9.jpg&quot;}}" alt=""></a></div>
+<div class="item"><a href="#"><img class="mark-lazy" src="{{media url=&quot;wysiwyg/brand/item-10.jpg&quot;}}" alt=""></a></div>
+<div class="item"><a href="#"><img class="mark-lazy" src="{{media url=&quot;wysiwyg/brand/item-11.jpg&quot;}}" alt=""></a></div>
+<div class="item"><a href="#"><img class="mark-lazy" src="{{media url=&quot;wysiwyg/brand/item-12.jpg&quot;}}" alt=""></a></div>
+</div>
+</div>
+</div>
+</div>
+<div class="block block-testimonals">
+<div class="block-title"><strong>Testimonials</strong></div>
+<div data-owl="owl-slider" data-autoplay="true" data-nav="true" data-dots="false" data-screen0="1" data-screen481="1" data-screen768="2" data-screen992="1" data-screen1200="1" data-screen1441="1" data-screen1681="1" data-screen1920="1" data-margin="1" data-autoplayhoverpause="true" data-loop="true" data-center="false" data-stagepadding="0" data-mousedrag="true" data-touchdrag="true">
+<div class="owl-carousel owl-theme">
+<div class="item">
+<div class="image"><img class="mark-lazy" src="{{media url=&quot;wysiwyg/testimonals/1.jpg&quot;}}" alt="">
+<h4>Mr. Ximao</h4>
+</div>
+<h3>Your Farm Are Great</h3>
+<p class="client-say">“The key to success is to keep your head above the water, never give up. In life there will be road block but we will over come it. You see hedges, how I got it shaped up?</p>
+</div>
+<div class="item">
+<div class="image"><img class="mark-lazy" src="{{media url=&quot;wysiwyg/testimonals/2.jpg&quot;}}" alt="">
+<h4>Mr. Henry</h4>
+</div>
+<h3>Your Farm Are Great</h3>
+<p class="client-say">“The key to success is to keep your head above the water, never give up. In life there will be road block but we will over come it. You see hedges, how I got it shaped up?</p>
+</div>
+</div>
+</div>
+</div>
+<div class="product-slider slider-product-1 nav-style-1 absolute-nav">
+<div data-owl="owl-slider" data-autoplay="false" data-nav="true" data-dots="false" data-screen0="1" data-screen481="1" data-screen768="2" data-screen992="1" data-screen1200="1" data-screen1441="1" data-screen1681="1" data-screen1920="1" data-margin="30" data-autoplayhoverpause="true" data-loop="false" data-center="false" data-stagepadding="0" data-mousedrag="true" data-touchdrag="true">{{block class="Sm\FilterProducts\Block\FilterProducts" template="Sm_FilterProducts::list-slider.phtml" title_module="Recommend" product_source="other_products" select_category="" product_limitation="6" display_countdown="0" date_to=""}}</div>
+</div>
+</div>]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_item>
+    <cms_item>
+      <title>Theme - Newsletter Popup Social</title>
+      <identifier>social-newsletter-popup</identifier>
+      <content><![CDATA[<div class="socials-popup">
+<div class="socials-popup">
+<ul class="social-list">
+<li><a class="icon-facebook" title="Facebook" href="https://www.facebook.com/MagenTech"> <span class="hidden">Facebook</span> </a></li>
+<li><a class="icon-twitter" title="Twitter" href="https://twitter.com/MagenTech"> <span class="hidden">Twitter</span> </a></li>
+<li><a class="icon-instagram" title="Instagram" href="#"> <span class="hidden">Instagram</span> </a></li>
+<li><a class="icon-youtube" title="Youtube" href="https://www.youtube.com/user/smartaddons"> <span class="hidden">Youtube</span> </a></li>
+<li><a class="icon-linkedin" title="Linkedin" href="https://www.linkedin.com/in/magentech/"> <span class="hidden">Linkedin</span> </a></li>
+</ul>
+
+</div>
+</div>]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_item>
+    <cms_item>
+      <title>Fresh - Footer Links layout3</title>
+      <identifier>footer-links-v3</identifier>
+      <content><![CDATA[<ul class="footer-links">
+<li><a href="#">Contact Us</a></li>
+<li><a href="#">Term of Use</a></li>
+<li><a href="#">Privacy Policy</a></li>
+<li><a href="#">Site Map</a></li>
+</ul>]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_item>
+    <cms_item>
+      <title>Fresh - Footer 3 Content</title>
+      <identifier>footer-3-content</identifier>
+      <content><![CDATA[<div class="footer-top">
+<div class="row no-gutters">
+<div class="col-xl-3">
+<h3>sign up for newsletter</h3>
+</div>
+<div class="col-xl-5 col-md-5">
+<p class="des">Enter your email address if you want to receive our newsletter.</p>
+</div>
+<div class="col-xl-4 col-md-7">{{block class="Magento\Newsletter\Block\Subscribe" template="subscribe-footer.phtml"}}</div>
+</div>
+</div>
+<div class="footer-middle">
+<div class="logo-footer">
+<div class="logo-ft"><a href="#"><img src="{{media url=&quot;wysiwyg/logo-ft.png&quot;}}" alt=""></a></div>
+<div class="des">EcoGreen, a local Sudbury florist has served the Sudbury, area since 1975. When you work with Organic Food, you'll immediately see why the Charbonneau family has a reputation for delivering quality, value and service.</div>
+</div>
+<div class="row">
+<div class="column col-sm-4 col-xs-12">
+<div class="block-footer">
+<div class="block-footer-title">My Account</div>
+<div class="block-footer-content">
+<ul>
+<li><a href="#">My Account</a></li>
+<li><a href="#">Log in</a></li>
+<li><a href="#">My Cart</a></li>
+<li><a href="#">My Wishlist</a></li>
+<li><a href="#">My Compare</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="column col-sm-4 col-xs-12">
+<div class="block-footer">
+<div class="block-footer-title">Information</div>
+<div class="block-footer-content">
+<ul>
+<li><a href="#">About Us</a></li>
+<li><a href="#">Customer Service</a></li>
+<li><a href="#">Privacy Policy</a></li>
+<li><a href="#">Search Terms</a></li>
+<li><a href="#">Advanced Search</a></li>
+<li><a href="#">Contact Us</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="column col-sm-4 col-xs-12">
+<div class="block-footer">
+<div class="block-footer-title">Why buy from us</div>
+<div class="block-footer-content">
+<ul>
+<li><a href="#">Support 24/7</a></li>
+<li><a href="#">Freeshipping</a></li>
+<li><a href="#">Secure Shopping</a></li>
+<li><a href="#">International Shipping</a></li>
+<li><a href="#">Affiliates</a></li>
+<li><a href="#">Return Shipping</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="column col-sm-4 col-xs-12">
+<div class="block-footer">
+<div class="block-footer-title">Collections</div>
+<div class="block-footer-content">
+<ul>
+<li><a href="#">About Us</a></li>
+<li><a href="#">Customer Service</a></li>
+<li><a href="#">Privacy Policy</a></li>
+<li><a href="#">Search Terms</a></li>
+<li><a href="#">Advanced Search</a></li>
+<li><a href="#">Contact Us</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="column col-sm-8 col-xs-12">
+<div class="block-footer">
+<div class="block-footer-title">Collections</div>
+<div class="block-footer-content footer-contact">
+<ul>
+<li class="address">Ranelagh Place, Liverpool, L3 5UL, England</li>
+<li class="phone">+999 333 555</li>
+<li class="email"><a href="ecogreen@vipstore.com">ecogreen@vipstore.com</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_item>
+    <cms_item>
+      <title>Fresh - Contact Header 3</title>
+      <identifier>header-contact-v3</identifier>
+      <content><![CDATA[<div class="phone-header text-theme-color">
+<div class="icon-phone"><span class="hidden">hidden</span></div>
+Call Us Now: <span class="phone"> 0123-444-666</span></div>]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_item>
+  </blocks>
+</root>

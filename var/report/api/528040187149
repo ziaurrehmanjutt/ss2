@@ -1,0 +1,1 @@
+"Fatal Error: 'Cannot declare class Iib\\OfflinePayments\\Observer\\SalesOrderPaymentBeforeSavedObserver, because the name is already in use' in 'C:\\xampp\\htdocs\\sodasalf\\app\\code\\Iib\\EasyPaisa\\Observer\\SalesOrderPaymentBeforeSavedObserver.php' on line 6"

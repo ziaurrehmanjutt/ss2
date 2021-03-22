@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../app/code/Magento/Webapi/etc/webapi.xsd">
+    <route url="/V1/showreview/allreviews/:storeId" method="GET">
+        <service class="Iib\CustomApi\Api\MyReviewInterface" method="getAllReviews"/>
+        <resources>
+            <resource ref="anonymous"/>
+        </resources>
+    </route>
+
+    <route url="/V1/wishlist/items" method="GET">
+        <service class="Iib\CustomApi\Api\WishlistManagementInterface" method="getWishlistForCustomer"/>
+        <resources>
+            <resource ref="anonymous" />
+        </resources>
+        <data>
+            <parameter name="customerId" force="true">%customer_id%</parameter>
+        </data>
+    </route>
+    <route url="/V1/wishlist/add/:productId" method="POST">
+        <service class="Iib\CustomApi\Api\WishlistManagementInterface" method="addWishlistForCustomer"/>
+        <resources>
+            <resource ref="anonymous" />
+        </resources>
+        <data>
+            <parameter name="customerId" force="true">%customer_id%</parameter>
+        </data>
+    </route>  
+
+    <route url="/V1/orders/mine" method="GET">
+        <service class="Magento\Sales\Api\OrderRepositoryInterface" method="getList"/>
+        <resources>
+            <resource ref="self" />
+        </resources>
+        <data>
+            <parameter name="searchCriteria.filter_groups.0.filters.9999999.value" force="true">%customer_id%</parameter>
+            <parameter name="searchCriteria.filter_groups.0.filters.9999999.field" force="true">customer_id</parameter>
+        </data>
+    </route>
+
+
+</routes>

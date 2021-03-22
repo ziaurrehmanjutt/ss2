@@ -1,0 +1,144 @@
+.products-grid:not(.wishlist) {
+    .product-item-info {
+        width: 100% !important;
+        margin-bottom: 40px;
+        .transition(.3s);
+        .reviews-actions {
+            display: none !important;
+        }
+
+        .image-product {
+            position: relative;
+            text-align: center;
+
+            
+            .actions-secondary {
+                    position: absolute;
+                    width: 100%;
+                    text-align: center;
+                    top:50%;
+                    margin-top:-20px;
+                    z-index: 1;
+                    .action {
+                        background-color: rgba(0,0,0,0.5);
+                        display: inline-block;
+                        margin: 0 2px;
+                        width: 40px;
+                        height: 40px;
+                        text-align: center;
+                        line-height: 40px;
+                        color: #fff;
+                        .border-radius(50%);
+                        .opacity(0);
+                        visibility: hidden;
+                        .transform(scale(0));
+                        .transition(.2s);
+                        span {
+                            display: none !important;
+                        }
+                        &:before {
+                            display: none;
+                        }
+
+                        &.towishlist{
+                           
+                            &:after {
+                            .icomoon(f004, 14px);
+                            }
+                        }
+
+                        &.tocompare{
+                            &:after {
+                                 .icomoon(f074, 14px);
+                            }
+                        }
+                        &.quickview-handler {
+                            &:before {
+                                .icomoon(f002, 14px);
+                            }
+                        }
+                    }
+                    
+                }
+        }
+
+        .product-item-photo {
+            display: block;
+            padding: 5px;
+            border: 1px solid #ebebeb;
+            line-height: 0;
+        }
+
+        .product-item-details {
+            padding-top: 10px;
+            text-align: center;
+            .product-item-name {
+                margin: 0 0 4px;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                font-size: 114.28%;
+                a {
+                    padding: 6px 0;
+                    font-weight: 500;
+                }
+            }
+            .swatch-attribute {
+                text-align: center;
+                .swatch-option {
+                    display: inline-block;
+                    float: none;
+                    margin-bottom: 0px;
+                }
+            }
+            .price-box {
+                margin: 5px 0 15px;
+
+                .price {
+                    font-size: 128.571%;
+                }
+            }
+
+            div[class^="swatch-opt-"] {
+                margin-bottom: 30px;
+            }
+
+            .product-item-actions {
+                margin: 0;
+
+                .actions-primary {
+                    vertical-align: top;
+
+                    .tocart {
+                        height: 40px;
+                        padding: 0 35px;
+                        background-color: #f2f2f2;
+                        color: #aaaaaa;
+                        font-size: 85.71%;
+                        text-transform: uppercase;
+                        .border-radius(25px);
+                        font-weight: 600;
+                    }
+                    .quickview-handler {
+                        display: none;
+
+                    }
+                }
+
+                
+            }
+
+            .swatch-option.color {
+                margin: 0 10px 0 3px;
+            }
+        }
+
+        &:hover {
+            .image-product .actions-secondary .action{
+                .opacity(1);
+                .transform(scale(1));
+                visibility: visible;
+            }
+        }
+    }
+}

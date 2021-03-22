@@ -1,0 +1,249 @@
+/**
+ * Button
+ */
+/**
+ * Remove color name product
+ */
+/**
+ * Icomoon mixin
+ */
+/**
+ * Footer 1 style
+ */
+.footer-style-1 {
+  background: #333;
+  padding: 0;
+  color: #c5c5c5;
+}
+.layout-boxed .footer-style-1 {
+  padding: 0 15px;
+}
+.footer-style-1 .footer-top {
+  padding: 55px 0 25px;
+}
+.social-footer {
+  margin-bottom: 28px;
+}
+.social-footer ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.social-footer ul:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.social-footer ul li {
+  float: right;
+  margin: 0 0 0 15px;
+}
+.social-footer ul li a {
+  color: #d9d9d9;
+  font-size: 18px;
+  display: block;
+}
+.footer-block-instagram ul {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+.footer-block-instagram ul li {
+  margin: 0 10px 10px 0;
+  max-width: 80px;
+}
+.layout-boxed .footer-block-instagram ul li {
+  width: 75px;
+}
+.subcribe-footer-content {
+  display: table;
+  margin-bottom: 28px;
+  width: 100%;
+}
+.subcribe-footer-content .subcribe-footer-title {
+  display: block;
+  font-size: 100%;
+  font-weight: 400;
+  margin-bottom: 25px;
+}
+.subcribe-footer-content .block-subscribe-footer {
+  display: block;
+  vertical-align: top;
+  width: 100%;
+}
+.subcribe-footer-content .block-subscribe-footer .newsletter-content {
+  display: table;
+  width: 100%;
+}
+.subcribe-footer-content .block-subscribe-footer .input-box {
+  display: block;
+  width: 100%;
+  margin-bottom: 25px;
+}
+.subcribe-footer-content .block-subscribe-footer .input-box #newsletter-footer {
+  height: 45px;
+  border: none;
+  padding-left: 25px;
+  color: #a2a2a2;
+  font-size: 92.85%;
+  border-radius: 25px;
+  -moz-border-radius: 25px;
+  -webkit-border-radius: 25px;
+}
+.subcribe-footer-content .block-subscribe-footer .action-button {
+  display: block;
+  text-align: center;
+}
+.subcribe-footer-content .block-subscribe-footer .action-button button {
+  text-transform: uppercase;
+  font-weight: 500;
+  border-radius: 0;
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
+  background: transparent;
+  padding: 0px;
+}
+.subcribe-footer-content .block-subscribe-footer .action-button button:after {
+  content: '\f178';
+  display: inline-block;
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  font-size: 14px;
+  margin-left: 5px;
+}
+.subcribe-footer-content .block-subscribe-footer .action-button button:hover {
+  text-decoration: underline;
+}
+.logo-ft {
+  display: block;
+  margin: -15px 0 25px;
+}
+.block-footer {
+  margin-bottom: 40px;
+}
+.block-footer .block-footer-title {
+  font-size: 128.571%;
+  color: #ffffff;
+  font-weight: 500;
+  margin-bottom: 45px;
+  text-transform: uppercase;
+}
+.block-footer .block-footer-title span {
+  text-transform: capitalize;
+  font-style: italic;
+  margin-left: 5px;
+  font-size: 100%;
+}
+.block-footer .block-footer-content ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.block-footer .block-footer-content ul li a {
+  padding-left: 0;
+  color: #c5c5c5;
+}
+.block-footer .footer-contact {
+  margin-bottom: 20px;
+}
+.block-footer .footer-contact ul li {
+  min-height: 33px;
+  color: #c5c5c5;
+  position: relative;
+  padding-right: 30px;
+  margin-bottom: 0;
+}
+.block-footer .footer-contact ul li:before {
+  position: absolute;
+  right: 0;
+  top: -2px;
+  color: #c5c5c5;
+}
+.block-footer .footer-contact ul li.address:before {
+  content: '\f015';
+  display: inline-block;
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  font-size: 18px;
+}
+.block-footer .footer-contact ul li.phone:before {
+  content: '\f095';
+  display: inline-block;
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  font-size: 18px;
+}
+.block-footer .footer-contact ul li.email:before {
+  content: '\f0e0';
+  display: inline-block;
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  font-size: 15px;
+}
+.block-footer .footer-contact ul li.time:before {
+  content: '\f0fb';
+  display: inline-block;
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  font-size: 18px;
+}
+.footer-bottom {
+  border-top: 1px solid rgba(255, 255, 255, 0.3);
+  padding: 20px 0;
+  text-align: center;
+}
+.footer-bottom address {
+  color: #d8d8d8;
+  font-size: 100%;
+  margin: 0px;
+}
+.footer-bottom address a:hover {
+  text-decoration: underline;
+}
+/**
+ * Responsive footer 1
+ */
+@media (min-width: 1200px) {
+  .footer-style-1 {
+    background: url('../images/bg-footer.jpg') repeat 0 0;
+  }
+  .footer-style-1 .footer-links {
+    padding: 0px;
+  }
+}
