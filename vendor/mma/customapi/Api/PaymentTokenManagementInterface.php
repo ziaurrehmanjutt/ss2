@@ -12,7 +12,7 @@ namespace MMA\CustomApi\Api;
  * @api
  * @since 100.1.0
  */
-interface PaymentTokenManagementInterface extends \Magento\Vault\Api\PaymentTokenManagementInterface
+interface PaymentTokenManagementInterface
 {
     /**
      * @param string $publicHash payment token hash.

@@ -1,0 +1,16 @@
+a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1616652526;s:6:"expire";i:1616738926;s:4:"tags";s:45:"b4f_BLOCK_HTML,b4f_CAT_P_9,b4f_CAT_P,b4f_MAGE";}
+a:2:{s:8:"policies";a:2:{i:0;a:3:{s:2:"id";s:10:"script-src";s:5:"hosts";a:0:{}s:6:"hashes";a:6:{s:44:"/PqDWJciQvcdJwCPRqIddHi8N+EhlWtTIJBQYxLgi2E=";s:6:"sha256";s:44:"48sb4Je7XoTlJimO7pm/+fwXo5BBI6oU4Vci+QqK2/I=";s:6:"sha256";s:44:"HUjaEs6gPI/8f06cL8Wy1zR3vaPjSDAYb+YL5IRBsf4=";s:6:"sha256";s:44:"9N89WMndeXJQQmez3zcXupuWhb0jRtPuHYgRtBa1Cjo=";s:6:"sha256";s:44:"USbYAI6QdARu8kOVEe99Fddx0IRFsr38y3Rrltu25A4=";s:6:"sha256";s:44:"luWYimzeo+yqIbDS60ncTGBrvzaAa0JdQIVRfE2kdkY=";s:6:"sha256";}}i:1;a:3:{s:2:"id";s:9:"style-src";s:5:"hosts";a:0:{}s:6:"hashes";a:1:{s:44:"sMoBTtKt3bApnUg+x7lFf2YuiHP/BKfXr5Z+GABuXfU=";s:6:"sha256";}}}s:4:"html";s:514:"<div class="price-box price-final_price" data-role="priceBox" data-product-id="9" data-price-box="product-id-9"><span class="normal-price">
+    
+
+<span class="price-container price-final_price&#x20;tax&#x20;weee"
+        >
+            <span class="price-label">As low as</span>
+        <span  id="old-price-9-widget-new-grid"                data-price-amount="120"
+        data-price-type="finalPrice"
+        class="price-wrapper "
+    ><span class="price">PKR120.00</span></span>
+        </span>
+</span>
+
+
+</div>";}

@@ -36,7 +36,7 @@ public function __construct(
         $this->_checkoutSession = $checkoutSession;
         $this->_orderFactory = $salesOrderFactory;
          $this->scopeConfig = $scopeConfig;        
-        parent::__construct($context, $data);
+        parent::__construct($context);
     }
     public function execute()
     {

@@ -107,3 +107,23 @@ https://github.com/dsasmita/magento2-admin-theme
 https://magento.stackexchange.com/questions/206572/how-to-add-custom-link-in-main-menu-in-magento-2
 
 T:\app\design\frontend\Sm\fresh\Magento_Theme\templates\html\topmenu.phtml
+
+
+gcloud compute instances set-service-account instance-1 \
+   --service-account adnan25081995@gmail.com \
+   --scopes compute-rw,storage-ro
+
+   sudo chmod -R 777 var/ generated/ pub/
+
+/var/www/html/ss2/pub/static/frontend/Sm/fresh/en_US/images
+
+<div class="footer-payments"><img class="mark-lazy" src="{{media url="wysiwyg/payments/payment-footer.png"}}" alt="Payments" width="370" height="32"></div>
+
+https://wiki.dolibarr.org/index.php/Module_development
+
+
+When clik on back in profile app Blanck
+When add Category staus show 201 but added
+Admin No update password name. picture etc
+When Save Comment and Picture No Message show on login custome and 500 error with guest customer???
+All Form Cleard if any error while Register and same for others form

@@ -1,0 +1,128 @@
+box_lastlogin
+
+box_members_by_type
+
+box_members_last_modified
+
+box_members
+
+box_birthdays
+
+box_birthdays_members
+
+box_last_ticket
+
+box_last_modified_ticket
+
+box_boms
+
+box_clients
+
+box_commandes
+
+box_contacts
+
+box_contracts
+
+Box_Customers_Outstanding_Bill_Reached
+
+box_factures_fourn_imp
+
+box_factures_fourn
+
+box_factures_imp
+
+box_factures
+
+box_ficheinter
+
+box_fournisseurs
+
+box_goodcustomers
+
+box_members_last_subscriptions
+
+box_members_subscriptions_by_year
+
+box_mos
+
+box_produits_alerte_stock
+
+box_produits
+
+box_propales
+
+box_prospect
+
+box_services_contracts
+
+box_services_expired
+
+box_shipments
+
+box_supplier_orders_awaiting_response.php
+
+box_supplier_orders
+
+
+
+2wyfrkdpx4
+
+
+///// I have add this code in box_.......php pages/////////////////////////  
+
+			$sql .= " JOIN ".MAIN_DB_PREFIX."societe_extrafields as ct ON s.rowid = ct.fk_object";
+			if ($_SESSION['company_id']) {
+				$id = $_SESSION['company_id'];
+				$sql .= " AND ctf.companyid =".$id;
+				$sql .= " AND ct.companyid =".$id;
+			}
+
+//////////////////////////////////////////////////////////////////////////////
+
+//////I have add this code in list.php pages///////////////////////////
+
+$own_id = $_SESSION["company_id"];
+
+if ($own_id) {
+	$sql .= " AND ef.companyid = $own_id";
+}else {
+	$sql .= " AND ef.companyid IS NULL";
+
+}
+
+///////////////////////////////////////////////////////////////////////////////
+
+////////I have add this code in card.php pages///////////////////////////
+
+///////////////////
+//////****************
+/////Custom code
+
+$own_id = $_SESSION["company_id"];
+// var_dump($_SESSION);die;
+print ' <input type="hidden" id="custId" name="custId" value="'.$own_id.'">';
+
+//////Custom code end
+//////*******************
+/////////////////////////
+if (true) {
+print "\n".'<script type="text/javascript">';
+print '$(document).ready(function () {
+	var custId = $("#custId").val();
+	$("#options_companyid").val(custId);
+	$("#options_companyid").prop("hidden", true);
+	console.log(custId);
+});';
+print '</script>';
+}
+
+////////////////////////////////////////////////////////////////////////////
+
+if ($_SESSION["company_id"]) {
+			$sql .= " AND se.companyid = $_SESSION["company_id"]";
+		}else {
+			$sql .= " AND se.companyid IS NULL";
+		}
+
+///////////////////////////////////////////////////////////////////////////

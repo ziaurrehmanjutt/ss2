@@ -8,21 +8,9 @@
 
 namespace MMA\CustomApi\Model;
 
-use Magento\Vault\Api\Data\PaymentTokenInterface;
-use Magento\Framework\Api\FilterBuilder;
-use Magento\Framework\Api\SearchCriteriaBuilder;
-use Magento\Framework\Encryption\EncryptorInterface;
-use Magento\Framework\Intl\DateTimeFactory;
-use Magento\Vault\Api\Data\PaymentTokenSearchResultsInterfaceFactory;
-use Magento\Vault\Api\PaymentTokenManagementInterface;
-use Magento\Vault\Api\PaymentTokenRepositoryInterface;
-use Magento\Vault\Model\ResourceModel\PaymentToken as PaymentTokenResourceModel;
-use Magento\Vault\Model\PaymentTokenFactory;
-use Magento\Braintree\Model\Adapter\BraintreeAdapterFactory;
-use Magento\Braintree\Gateway\Validator\PaymentNonceResponseValidator;
-use Magento\Payment\Gateway\Command\Result\ArrayResultFactory;
 
-class PaymentTokenManagement extends \Magento\Vault\Model\PaymentTokenManagement implements \MMA\CustomApi\Api\PaymentTokenManagementInterface
+
+class PaymentTokenManagement  implements \MMA\CustomApi\Api\PaymentTokenManagementInterface
 {
     /**
      * @var \Magento\Vault\Api\PaymentTokenManagementInterface
@@ -59,33 +47,9 @@ class PaymentTokenManagement extends \Magento\Vault\Model\PaymentTokenManagement
      * @param ArrayResultFactory $resultFactory
      */
     public function __construct(
-        PaymentTokenRepositoryInterface $repository,
-        PaymentTokenResourceModel $paymentTokenResourceModel,
-        PaymentTokenFactory $paymentTokenFactory,
-        FilterBuilder $filterBuilder,
-        SearchCriteriaBuilder $searchCriteriaBuilder,
-        PaymentTokenSearchResultsInterfaceFactory $searchResultsFactory,
-        EncryptorInterface $encryptor,
-        DateTimeFactory $dateTimeFactory,
-        PaymentTokenManagementInterface $tokenManagement,
-        BraintreeAdapterFactory $adapterFactory,
-        PaymentNonceResponseValidator $responseValidator,
-        ArrayResultFactory $resultFactory
+
     ) {
-        $this->tokenManagement = $tokenManagement;
-        $this->adapterFactory = $adapterFactory;
-        $this->responseValidator = $responseValidator;
-        $this->resultFactory = $resultFactory;
-        parent::__construct(
-            $repository,
-            $paymentTokenResourceModel,
-            $paymentTokenFactory,
-            $filterBuilder,
-            $searchCriteriaBuilder,
-            $searchResultsFactory,
-            $encryptor,
-            $dateTimeFactory
-        );
+
     }
 
     /**

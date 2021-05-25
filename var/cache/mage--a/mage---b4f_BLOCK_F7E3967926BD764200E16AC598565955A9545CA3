@@ -1,0 +1,96 @@
+a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1616657354;s:6:"expire";i:1616743754;s:4:"tags";s:33:"b4f_CAT_P,b4f_BLOCK_HTML,b4f_MAGE";}
+a:2:{s:8:"policies";a:2:{i:0;a:3:{s:2:"id";s:10:"script-src";s:5:"hosts";a:0:{}s:6:"hashes";a:6:{s:44:"hS7bn/2ZAbNpIh6THAbjxKu0COyf5exu87wVP63fmMs=";s:6:"sha256";s:44:"48sb4Je7XoTlJimO7pm/+fwXo5BBI6oU4Vci+QqK2/I=";s:6:"sha256";s:44:"HUjaEs6gPI/8f06cL8Wy1zR3vaPjSDAYb+YL5IRBsf4=";s:6:"sha256";s:44:"9N89WMndeXJQQmez3zcXupuWhb0jRtPuHYgRtBa1Cjo=";s:6:"sha256";s:44:"oJC//twYBnCRbHpVmmYAxxBDDbLNgM2aC/egtgVF6pw=";s:6:"sha256";s:44:"qtnsMTLOKbYTZuRlwPIgks4B5+Yer+LaeQpvv+BQaPc=";s:6:"sha256";}}i:1;a:3:{s:2:"id";s:9:"style-src";s:5:"hosts";a:0:{}s:6:"hashes";a:1:{s:44:"aeBKc4BoG4V8ngtNdj1iVUlSw1g4UGirGSxi3vFGAZQ=";s:6:"sha256";}}}s:4:"html";s:6129:"
+    <div class="block widget block-new-products grid">
+        <div class="block-title">
+            <strong role="heading" aria-level="2">New Products</strong>
+        </div>
+        <div class="block-content">
+            <!-- new_products_content_widget_grid-->            <div class="products-grid grid">
+                <ol class="product-items widget-new-grid">
+                                        <li class="product-item">
+                        <div class="product-item-info">
+                            <a href="http://sodasulf2.iibtech.com/apple.html"
+                               class="product-item-photo">
+                                <span class="product-image-container product-image-container-1" style="width: 300px">
+    <span class="product-image-wrapper">
+        <img class="product-image-photo lazyload"
+            
+                    src="http://sodasulf2.iibtech.com/media/lazyloading/blank.png"
+            data-src="http://sodasulf2.iibtech.com/media/catalog/product\cache\61fda3dfd1c952962e1a2d746d25aeaf\//i/m/images_1_.jpg"
+        
+            loading="lazy"
+                            width="300"
+                height="300"
+                        alt="Apple"/></span>
+</span>
+<style>/**
+.product-image-container-1 {
+    width: 300px;
+}
+*/
+.product-image-container-1 span.product-image-wrapper {
+    padding-bottom: 100%;
+}</style><script type="text&#x2F;javascript">prodImageContainers = document.querySelectorAll(".product-image-container-1");
+/**
+for (var i = 0; i < prodImageContainers.length; i++) {
+    prodImageContainers[i].style.width = "300px";
+}
+*/
+prodImageContainersWrappers = document.querySelectorAll(
+    ".product-image-container-1  span.product-image-wrapper"
+);
+for (var i = 0; i < prodImageContainersWrappers.length; i++) {
+    prodImageContainersWrappers[i].style.paddingBottom = "100%";
+}</script>                            </a>
+                            <div class="product-item-details">
+                                <strong class="product-item-name">
+                                    <a title="Apple"
+                                       href="http://sodasulf2.iibtech.com/apple.html"
+                                       class="product-item-link">
+                                        Apple                                    </a>
+                                </strong>
+                                <div class="price-box price-final_price" data-role="priceBox" data-product-id="1" data-price-box="product-id-1">
+    
+
+<span class="price-container price-final_price&#x20;tax&#x20;weee"
+        >
+        <span  id="old-price-1-widget-new-grid"                data-price-amount="12"
+        data-price-type="finalPrice"
+        class="price-wrapper "
+    ><span class="price">PKR12.00</span></span>
+        </span>
+
+</div>
+                                                                                                    
+                                                                    <div class="product-item-actions">
+                                                                                    <div class="actions-primary">
+                                                                                                                                                                                                                    <button class="action tocart primary"
+                                                                data-post='{"action":"http:\/\/sodasulf2.iibtech.com\/checkout\/cart\/add\/uenc\/aHR0cDovL3NvZGFzdWxmMi5paWJ0ZWNoLmNvbS8%2C\/product\/1\/","data":{"product":1,"uenc":"aHR0cDovL3NvZGFzdWxmMi5paWJ0ZWNoLmNvbS8,"}}'
+                                                                type="button"
+                                                                title="Add&#x20;to&#x20;Cart">
+                                                            <span>Add to Cart</span>
+                                                        </button>
+                                                                                                                                                </div>
+                                                                                                                            <div class="actions-secondary" data-role="add-to-links">
+                                                                                                    <a href="#"
+                                                       data-post='{"action":"http:\/\/sodasulf2.iibtech.com\/wishlist\/index\/add\/","data":{"product":1,"uenc":"aHR0cDovL3NvZGFzdWxmMi5paWJ0ZWNoLmNvbS8,"}}'
+                                                       class="action towishlist"
+                                                       data-action="add-to-wishlist"
+                                                       title="Add&#x20;to&#x20;Wish&#x20;List">
+                                                        <span>Add to Wish List</span>
+                                                    </a>
+                                                                                                                                                                                                        <a href="#" class="action tocompare"
+                                                       data-post='{"action":"http:\/\/sodasulf2.iibtech.com\/catalog\/product_compare\/add\/","data":{"product":"1","uenc":"aHR0cDovL3NvZGFzdWxmMi5paWJ0ZWNoLmNvbS8,"}}'
+                                                       title="Add&#x20;to&#x20;Compare">
+                                                        <span>Add to Compare</span>
+                                                    </a>
+                                                                                            </div>
+                                                                            </div>
+                                                            </div>
+                        </div>
+                     </li>
+                                    </ol>
+            </div>
+                    </div>
+    </div>
+";}

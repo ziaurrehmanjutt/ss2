@@ -10,7 +10,23 @@ use MMA\CustomApi\Api\BraintreeConfigProviderInterface;
 /**
  * Class ConfigProvider
  */
-class ConfigProvider extends \Magento\Braintree\Model\Ui\ConfigProvider implements BraintreeConfigProviderInterface
+class ConfigProvider implements BraintreeConfigProviderInterface
 {
 
+    /**
+     * Retrieve assoc array of checkout configuration
+     *
+     * @return array
+     */
+    public function getConfig(){
+
+    }
+
+    /**
+     * Generate a new client token if necessary
+     * @return string
+     */
+    public function getClientToken(){
+
+    }
 }
